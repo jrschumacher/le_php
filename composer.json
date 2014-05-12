@@ -1,6 +1,11 @@
 {
     "name": "ematos/logentries_test",
     "description": "test desc",
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     },
