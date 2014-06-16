@@ -76,7 +76,7 @@ class LeLogger
 		self::$m_instance = NULL;
 	}
 
-	private function __construct($token, $persistent, $use_ssl, $severity)
+	public function __construct($token, $persistent, $use_ssl, $severity)
 	{
 		$this->validateToken($token);
 
